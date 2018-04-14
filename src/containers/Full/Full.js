@@ -130,7 +130,7 @@ class Full extends Component {
                 <Route path="/ui-kits/email/inbox" name="Invoice" component={Inbox}/>
                 <Route path="/ui-kits/email/message" name="Message" component={Message}/>
                 <Route path="/ui-kits/email/compose" name="Compose" component={Compose}/>
-                <Redirect from="/" to="/dashboard"/>
+                <Redirect from="/" to="/login"/>
               </Switch>
             </Container>
           </main>
