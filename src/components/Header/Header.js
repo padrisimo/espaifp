@@ -47,13 +47,13 @@ class Header extends Component {
         </NavbarToggler>
         <Nav className="d-md-down-none" navbar>
           <NavItem className="px-3">
-            <NavLink href="#">Dashboard</NavLink>
+            <NavLink href="#">Ofertas</NavLink>
           </NavItem>
           <NavItem className="px-3">
-            <NavLink href="#">Users</NavLink>
+            <NavLink href="#">Clientes</NavLink>
           </NavItem>
           <NavItem className="px-3">
-            <NavLink href="#">Settings</NavLink>
+            <NavLink href="#">Trabajadores</NavLink>
           </NavItem>
         </Nav>
         <Nav className="ml-auto" navbar>
