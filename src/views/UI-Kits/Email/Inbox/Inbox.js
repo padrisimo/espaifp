@@ -23,22 +23,22 @@ class Inbox extends Component {
       <div className="animated fadeIn">
         <div className="email-app mb-4">
           <nav>
-            <a href="#/ui-kits/email/compose" className="btn btn-danger btn-block">New Email</a>
+            <a href="#/ui-kits/email/compose" className="btn btn-danger btn-block">Nuevo Email</a>
             <Nav>
               <NavItem>
-                <NavLink href="#/ui-kits/email/inbox"><i className="fa fa-inbox"></i> Inbox <Badge color="danger">4</Badge></NavLink>
+                <NavLink href="#/ui-kits/email/inbox"><i className="fa fa-inbox"></i> Entrada <Badge color="danger">4</Badge></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#"><i className="fa fa-star"></i> Stared</NavLink>
+                <NavLink href="#"><i className="fa fa-star"></i> Favoritos</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#"><i className="fa fa-rocket"></i> Sent</NavLink>
+                <NavLink href="#"><i className="fa fa-rocket"></i> Enviados</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#"><i className="fa fa-trash-o"></i> Trash</NavLink>
+                <NavLink href="#"><i className="fa fa-trash-o"></i> Papelera</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#"><i className="fa fa-bookmark"></i> Important<Badge color="info">5</Badge></NavLink>
+                <NavLink href="#"><i className="fa fa-bookmark"></i> Importante<Badge color="info">5</Badge></NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#"><i className="fa fa-exclamation-circle"></i> Spam <Badge color="danger">4</Badge></NavLink>
@@ -64,10 +64,10 @@ class Inbox extends Component {
                   <span className="fa fa-tags"></span>
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem>add label<Badge color="danger">Home</Badge></DropdownItem>
-                  <DropdownItem>add label<Badge color="info">Job</Badge></DropdownItem>
-                  <DropdownItem>add label<Badge color="success">Clients</Badge></DropdownItem>
-                  <DropdownItem>add label<Badge color="warning">News</Badge></DropdownItem>
+                  <DropdownItem>Etiqueta<Badge color="danger">Personal</Badge></DropdownItem>
+                  <DropdownItem>Etiqueta<Badge color="info">Trabajo</Badge></DropdownItem>
+                  <DropdownItem>Etiqueta<Badge color="success">Cliente</Badge></DropdownItem>
+                  <DropdownItem>Etiqueta<Badge color="warning">Noticia</Badge></DropdownItem>
                 </DropdownMenu>
               </ButtonDropdown>
               <ButtonGroup className="float-right">
@@ -84,8 +84,8 @@ class Inbox extends Component {
                     <span className="action"><i className="fa fa-star-o"></i></span>
                   </div>
                   <div className="header">
-                    <span className="from">Lukasz Holeczek</span>
-                    <span className="date"><span className="fa fa-paper-clip"></span> Today, 3:47 PM</span>
+                    <span className="from">V Escribà</span>
+                    <span className="date"><span className="fa fa-paper-clip"></span> Hoy, 3:47 PM</span>
                   </div>
                   <div className="title">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -102,8 +102,8 @@ class Inbox extends Component {
                     <span className="action"><i className="fa fa-star-o"></i></span>
                   </div>
                   <div className="header">
-                    <span className="from">Lukasz Holeczek</span>
-                    <span className="date"><span className="fa fa-paper-clip"></span> Today, 3:47 PM</span>
+                    <span className="from">V Escribà</span>
+                    <span className="date"><span className="fa fa-paper-clip"></span> Hoy, 3:47 PM</span>
                   </div>
                   <div className="title">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -120,8 +120,8 @@ class Inbox extends Component {
                     <span className="action"><i className="fa fa-star-o"></i></span>
                   </div>
                   <div className="header">
-                    <span className="from">Lukasz Holeczek</span>
-                    <span className="date">Today, 3:47 PM</span>
+                    <span className="from">V Escribà</span>
+                    <span className="date">Hoy, 3:47 PM</span>
                   </div>
                   <div className="title">
                     Lorem ipsum dolor sit amet.
@@ -138,8 +138,8 @@ class Inbox extends Component {
                     <span className="action"><i className="fa fa-star-o"></i></span>
                   </div>
                   <div className="header">
-                    <span className="from">Lukasz Holeczek</span>
-                    <span className="date">Today, 3:47 PM</span>
+                    <span className="from">V Escribà</span>
+                    <span className="date">Hoy, 3:47 PM</span>
                   </div>
                   <div className="title">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -156,8 +156,8 @@ class Inbox extends Component {
                     <span className="action"><i className="fa fa-star-o"></i></span>
                   </div>
                   <div className="header">
-                    <span className="from">Lukasz Holeczek</span>
-                    <span className="date">Today, 3:47 PM</span>
+                    <span className="from">V Escribà</span>
+                    <span className="date">Hoy, 3:47 PM</span>
                   </div>
                   <div className="title">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -175,8 +175,8 @@ class Inbox extends Component {
                     <span className="action"><i className="fa fa-star-o"></i></span>
                   </div>
                   <div className="header">
-                    <span className="from">Lukasz Holeczek</span>
-                    <span className="date">Today, 3:47 PM</span>
+                    <span className="from">V Escribà</span>
+                    <span className="date">Hoy, 3:47 PM</span>
                   </div>
                   <div className="title">
                     Lorem ipsum dolor sit amet.
@@ -193,8 +193,8 @@ class Inbox extends Component {
                     <span className="action"><i className="fa fa-star-o"></i></span>
                   </div>
                   <div className="header">
-                    <span className="from">Lukasz Holeczek</span>
-                    <span className="date">Today, 3:47 PM</span>
+                    <span className="from">V Escribà</span>
+                    <span className="date">Hoy, 3:47 PM</span>
                   </div>
                   <div className="title">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -211,8 +211,8 @@ class Inbox extends Component {
                     <span className="action"><i className="fa fa-star-o"></i></span>
                   </div>
                   <div className="header">
-                    <span className="from">Lukasz Holeczek</span>
-                    <span className="date">Today, 3:47 PM</span>
+                    <span className="from">V Escribà</span>
+                    <span className="date">Hoy, 3:47 PM</span>
                   </div>
                   <div className="title">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -229,8 +229,8 @@ class Inbox extends Component {
                     <span className="action"><i className="fa fa-star-o"></i></span>
                   </div>
                   <div className="header">
-                    <span className="from">Lukasz Holeczek</span>
-                    <span className="date">Today, 3:47 PM</span>
+                    <span className="from">V Escribà</span>
+                    <span className="date">Hoy, 3:47 PM</span>
                   </div>
                   <div className="title">
                     Lorem ipsum dolor sit amet.

@@ -23,22 +23,22 @@ class Compose extends Component {
       <div className="animated fadeIn">
         <div className="email-app">
           <nav>
-            <a href="#/ui-kits/email/compose" className="btn btn-danger btn-block">New Email</a>
+            <a href="#/ui-kits/email/compose" className="btn btn-danger btn-block">Nuevo Email</a>
             <Nav>
               <NavItem>
-                <NavLink href="#/ui-kits/email/inbox"><i className="fa fa-inbox"></i> Inbox <Badge color="danger">4</Badge></NavLink>
+                <NavLink href="#/ui-kits/email/inbox"><i className="fa fa-inbox"></i> Entrada <Badge color="danger">4</Badge></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#"><i className="fa fa-star"></i> Stared</NavLink>
+                <NavLink href="#"><i className="fa fa-star"></i> Favorito</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#"><i className="fa fa-rocket"></i> Sent</NavLink>
+                <NavLink href="#"><i className="fa fa-rocket"></i> Enviado</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#"><i className="fa fa-trash-o"></i> Trash</NavLink>
+                <NavLink href="#"><i className="fa fa-trash-o"></i> Papelera</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#"><i className="fa fa-bookmark"></i> Important<Badge color="info">5</Badge></NavLink>
+                <NavLink href="#"><i className="fa fa-bookmark"></i> Importante<Badge color="info">5</Badge></NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#"><i className="fa fa-exclamation-circle"></i> Spam <Badge color="danger">4</Badge></NavLink>
@@ -46,25 +46,25 @@ class Compose extends Component {
             </Nav>
           </nav>
           <main>
-            <p className="text-center">New Message</p>
+            <p className="text-center">Nuevo</p>
             <Form>
               <FormGroup row className="mb-3">
                 {/* strange reactstrap sizing for Label: className="col-2 col-sm-1 col-form-label" */}
                 <Label for="to" xs={2} sm={1}>To:</Label>
                 <Col xs={10} sm={11}>
-                  <Input type="email" id="to" placeholder="Type email"/>
+                  <Input type="email" id="to" placeholder="email"/>
                 </Col>
               </FormGroup>
               <FormGroup row className="mb-3">
                 <Label for="cc" xs={2} sm={1}>CC:</Label>
                 <Col xs={10} sm={11}>
-                  <Input type="email" id="cc" placeholder="Type email"/>
+                  <Input type="email" id="cc" placeholder="email"/>
                 </Col>
               </FormGroup>
               <FormGroup row className="mb-3">
                 <Label for="bcc" xs={2} sm={1}>BCC:</Label>
                 <Col xs={10} sm={11}>
-                  <Input type="email" id="bcc" placeholder="Type email"/>
+                  <Input type="email" id="bcc" placeholder="email"/>
                 </Col>
               </FormGroup>
             </Form>
@@ -107,12 +107,12 @@ class Compose extends Component {
                   </ButtonGroup>
                 </div>
                 <FormGroup className="mt-4">
-                  <Input type="textarea" id="message" name="body" rows="12" placeholder="Click here to reply"></Input>
+                  <Input type="textarea" id="message" name="body" rows="12" placeholder="Click para escribir"></Input>
                 </FormGroup>
                 <FormGroup>
-                  <Button type="submit" color="success">Send</Button>
-                  <Button type="submit" color="light">Draft</Button>
-                  <Button type="submit" color="danger">Discard</Button>
+                  <Button type="submit" color="success">Enviar</Button>
+                  <Button type="submit" color="light">Borrador</Button>
+                  <Button type="submit" color="danger">Descartar</Button>
                 </FormGroup>
               </Col>
             </Row>

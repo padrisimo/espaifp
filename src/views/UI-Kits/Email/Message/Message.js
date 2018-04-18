@@ -23,22 +23,22 @@ class Message extends Component {
       <div className="animated fadeIn">
         <div className="email-app mb-4">
           <nav>
-            <a href="#/ui-kits/email/compose" className="btn btn-danger btn-block">New Email</a>
+            <a href="#/ui-kits/email/compose" className="btn btn-danger btn-block">Nuevo Email</a>
             <Nav>
               <NavItem>
-                <NavLink href="#/ui-kits/email/inbox"><i className="fa fa-inbox"></i> Inbox <Badge color="danger">4</Badge></NavLink>
+                <NavLink href="#/ui-kits/email/inbox"><i className="fa fa-inbox"></i> Entrada <Badge color="danger">4</Badge></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#"><i className="fa fa-star"></i> Stared</NavLink>
+                <NavLink href="#"><i className="fa fa-star"></i> Favoritos</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#"><i className="fa fa-rocket"></i> Sent</NavLink>
+                <NavLink href="#"><i className="fa fa-rocket"></i> Enviados</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#"><i className="fa fa-trash-o"></i> Trash</NavLink>
+                <NavLink href="#"><i className="fa fa-trash-o"></i> Papelera</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#"><i className="fa fa-bookmark"></i> Important<Badge color="info">5</Badge></NavLink>
+                <NavLink href="#"><i className="fa fa-bookmark"></i> Importante<Badge color="info">5</Badge></NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#"><i className="fa fa-exclamation-circle"></i> Spam <Badge color="danger">4</Badge></NavLink>
@@ -63,22 +63,22 @@ class Message extends Component {
                   <span className="fa fa-tags"></span>
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem>add label<Badge color="danger">Home</Badge></DropdownItem>
-                  <DropdownItem>add label<Badge color="info">Job</Badge></DropdownItem>
-                  <DropdownItem>add label<Badge color="success">Clients</Badge></DropdownItem>
-                  <DropdownItem>add label<Badge color="warning">News</Badge></DropdownItem>
+                  <DropdownItem>Estiqueta<Badge color="danger">Personal</Badge></DropdownItem>
+                  <DropdownItem>Estiqueta<Badge color="info">Trabajo</Badge></DropdownItem>
+                  <DropdownItem>Estiqueta<Badge color="success">Cliente</Badge></DropdownItem>
+                  <DropdownItem>Estiqueta<Badge color="warning">Noticia</Badge></DropdownItem>
                 </DropdownMenu>
               </ButtonDropdown>
             </div>
             <div className="details">
-              <div className="title">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</div>
+              <div className="title">La Prueba de Concepto para la app de Android</div>
               <div className="header">
                 <img className="avatar" src="img/avatars/7.jpg"/>
                 <div className="from">
-                  <span>Lukasz Holeczek</span>
-                  lukasz@bootstrapmaster.com
+                  <span>Adrián Fernández Chamizo</span>
+                  espai@espaifp.es
                 </div>
-                <div className="date">Today, <b>3:47 PM</b></div>
+                <div className="date">hoy, <b>3:47 PM</b></div>
               </div>
               <div className="content">
                 <p>
@@ -90,7 +90,7 @@ class Message extends Component {
               </div>
               <div className="attachments">
                 <div className="attachment">
-                  <Badge color="danger">zip</Badge> <b>bootstrap.zip</b> <i>(2,5MB)</i>
+                  <Badge color="danger">zip</Badge> <b>app.apk</b> <i>(2,5MB)</i>
                   <span className="menu">
                     <a href="#" className="fa fa-search"></a>
                     <a href="#" className="fa fa-share"></a>
@@ -98,7 +98,7 @@ class Message extends Component {
                   </span>
                 </div>
                 <div className="attachment">
-                  <Badge color="info">txt</Badge> <b>readme.txt</b> <i>(7KB)</i>
+                  <Badge color="info">txt</Badge> <b>leeme.txt</b> <i>(7KB)</i>
                   <span className="menu">
                     <a href="#" className="fa fa-search"></a>
                     <a href="#" className="fa fa-share"></a>
@@ -106,7 +106,7 @@ class Message extends Component {
                   </span>
                 </div>
                 <div className="attachment">
-                  <Badge color="success">xls</Badge> <b>spreadsheet.xls</b> <i>(984KB)</i>
+                  <Badge color="success">xls</Badge> <b>hojadegastos.xls</b> <i>(984KB)</i>
                   <span className="menu">
                     <a href="#" className="fa fa-search"></a>
                     <a href="#" className="fa fa-share"></a>
@@ -116,10 +116,10 @@ class Message extends Component {
               </div>
               <form method="post" action="">
                 <FormGroup>
-                  <Input type="textarea" id="message" name="body" rows="12" placeholder="Click here to reply"></Input>
+                  <Input type="textarea" id="message" name="body" rows="12" placeholder="Click para contestar"></Input>
                 </FormGroup>
                 <FormGroup>
-                  <Button type="submit" color="success">Send message</Button>
+                  <Button type="submit" color="success">Enviar</Button>
                 </FormGroup>
               </form>
             </div>

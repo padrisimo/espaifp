@@ -31,10 +31,10 @@ const brandDanger = '#f86c6b';
 
 // Card Chart 1
 const cardChartData1 = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  labels: ['Enero', 'Febrero', 'Marzo', 'Adril', 'Mayo', 'Junio', 'July'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'un dato interesante',
       backgroundColor: brandPrimary,
       borderColor: 'rgba(255,255,255,.55)',
       data: [65, 59, 84, 84, 51, 55, 40]
@@ -82,10 +82,10 @@ const cardChartOpts1 = {
 
 // Card Chart 2
 const cardChartData2 = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  labels: ['Enero', 'Febrero', 'Marzo', 'Adril', 'Mayo', 'Junio', 'July'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'un dato interesante',
       backgroundColor: brandInfo,
       borderColor: 'rgba(255,255,255,.55)',
       data: [1, 18, 9, 17, 34, 22, 11]
@@ -134,10 +134,10 @@ const cardChartOpts2 = {
 
 // Card Chart 3
 const cardChartData3 = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  labels: ['Enero', 'Febrero', 'Marzo', 'Adril', 'Mayo', 'Junio', 'July'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'un dato interesante',
       backgroundColor: 'rgba(255,255,255,.2)',
       borderColor: 'rgba(255,255,255,.55)',
       data: [78, 81, 80, 45, 34, 12, 40]
@@ -175,7 +175,7 @@ const cardChartData4 = {
   labels: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'un dato interesante',
       backgroundColor: 'rgba(255,255,255,.3)',
       borderColor: 'transparent',
       data: [78, 81, 80, 45, 34, 12, 40, 75, 34, 89, 32, 68, 54, 72, 18, 98]
@@ -210,7 +210,8 @@ const socialBoxData = [
 const makeSocialBoxData = (dataSetNo) => {
   const dataset = socialBoxData[dataSetNo];
   const data = {
-    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+
+    labels: ['Enero', 'Febrero', 'Marzo', 'Adril', 'Mayo', 'Junio', 'July'],
     datasets: [
       {
         backgroundColor: 'rgba(255,255,255,.1)',
@@ -218,7 +219,7 @@ const makeSocialBoxData = (dataSetNo) => {
         pointHoverBackgroundColor: '#fff',
         borderWidth: 2,
         data: dataset.data,
-        label: dataset.label,
+        label: 'un dato interesante',
       }
     ]
   };
@@ -451,15 +452,15 @@ class Dashboard extends Component {
                       <i className="icon-settings"></i>
                     </DropdownToggle>
                     <DropdownMenu right>
-                      <DropdownItem>Action</DropdownItem>
-                      <DropdownItem>Another action</DropdownItem>
-                      <DropdownItem disabled>Disabled action</DropdownItem>
-                      <DropdownItem>Something else here</DropdownItem>
+                      <DropdownItem>Acción</DropdownItem>
+                      <DropdownItem>Otra Acción</DropdownItem>
+                      <DropdownItem disabled>res que fer</DropdownItem>
+                      <DropdownItem>Otra cosa</DropdownItem>
                     </DropdownMenu>
                   </ButtonDropdown>
                 </ButtonGroup>
-                <h4 className="mb-0">9.823</h4>
-                <p>Members online</p>
+                <h4 className="mb-0">23</h4>
+                <p>Nuevos Clientes</p>
               </CardBody>
               <div className="chart-wrapper px-3" style={{ height: '70px' }}>
                 <Line data={cardChartData1} options={cardChartOpts1} height={70} />
@@ -477,14 +478,14 @@ class Dashboard extends Component {
                       <i className="icon-location-pin"></i>
                     </DropdownToggle>
                     <DropdownMenu right>
-                      <DropdownItem>Action</DropdownItem>
-                      <DropdownItem>Another action</DropdownItem>
-                      <DropdownItem>Something else here</DropdownItem>
+                      <DropdownItem>Acción</DropdownItem>
+                      <DropdownItem>Otra Acción</DropdownItem>
+                      <DropdownItem>Otra cosa</DropdownItem>
                     </DropdownMenu>
                   </Dropdown>
                 </ButtonGroup>
-                <h4 className="mb-0">9.823</h4>
-                <p>Members online</p>
+                <h4 className="mb-0">821</h4>
+                <p>Nuevas Ofertas</p>
               </CardBody>
               <div className="chart-wrapper px-3" style={{ height: '70px' }}>
                 <Line data={cardChartData2} options={cardChartOpts2} height={70} />
@@ -502,14 +503,14 @@ class Dashboard extends Component {
                       <i className="icon-settings"></i>
                     </DropdownToggle>
                     <DropdownMenu right>
-                      <DropdownItem>Action</DropdownItem>
-                      <DropdownItem>Another action</DropdownItem>
-                      <DropdownItem>Something else here</DropdownItem>
+                      <DropdownItem>Acción</DropdownItem>
+                      <DropdownItem>Otra Acción</DropdownItem>
+                      <DropdownItem>Otra cosa</DropdownItem>
                     </DropdownMenu>
                   </Dropdown>
                 </ButtonGroup>
-                <h4 className="mb-0">9.823</h4>
-                <p>Members online</p>
+                <h4 className="mb-0">85</h4>
+                <p>Nuevos Trabajadores</p>
               </CardBody>
               <div className="chart-wrapper px-0" style={{ height: '70px' }}>
                 <Line data={cardChartData3} options={cardChartOpts3} height={70} />
@@ -527,14 +528,14 @@ class Dashboard extends Component {
                       <i className="icon-settings"></i>
                     </DropdownToggle>
                     <DropdownMenu right>
-                      <DropdownItem>Action</DropdownItem>
-                      <DropdownItem>Another action</DropdownItem>
-                      <DropdownItem>Something else here</DropdownItem>
+                      <DropdownItem>Acción</DropdownItem>
+                      <DropdownItem>Otra Acción</DropdownItem>
+                      <DropdownItem>Otra cosa</DropdownItem>
                     </DropdownMenu>
                   </ButtonDropdown>
                 </ButtonGroup>
-                <h4 className="mb-0">9.823</h4>
-                <p>Members online</p>
+                <h4 className="mb-0">98</h4>
+                <p>Trabajos Realizados</p>
               </CardBody>
               <div className="chart-wrapper px-3" style={{ height: '70px' }}>
                 <Bar data={cardChartData4} options={cardChartOpts4} height={70} />
@@ -548,16 +549,16 @@ class Dashboard extends Component {
               <CardBody>
                 <Row>
                   <Col sm="5">
-                    <CardTitle className="mb-0">Traffic</CardTitle>
-                    <div className="small text-muted">November 2015</div>
+                    <CardTitle className="mb-0">Resultados</CardTitle>
+                    <div className="small text-muted">Abril 2018</div>
                   </Col>
                   <Col sm="7" className="d-none d-sm-inline-block">
                     <Button color="primary" className="float-right"><i className="icon-cloud-download"></i></Button>
                     <ButtonToolbar className="float-right" aria-label="Toolbar with button groups">
                       <ButtonGroup className="mr-3" aria-label="First group">
-                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(1)} active={this.state.radioSelected === 1}>Day</Button>
-                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(2)} active={this.state.radioSelected === 2}>Month</Button>
-                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(3)} active={this.state.radioSelected === 3}>Year</Button>
+                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(1)} active={this.state.radioSelected === 1}>Día</Button>
+                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(2)} active={this.state.radioSelected === 2}>Mes</Button>
+                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(3)} active={this.state.radioSelected === 3}>Año</Button>
                       </ButtonGroup>
                     </ButtonToolbar>
                   </Col>
@@ -569,28 +570,28 @@ class Dashboard extends Component {
               <CardFooter>
                 <ul>
                   <li>
-                    <div className="text-muted">Visits</div>
-                    <strong>29.703 Users (40%)</strong>
+                    <div className="text-muted">Nuevos Clientes</div>
+                    <strong>29.703 (40%)</strong>
                     <Progress className="progress-xs mt-2" color="success" value="40" />
                   </li>
                   <li className="d-none d-md-table-cell">
-                    <div className="text-muted">Unique</div>
-                    <strong>24.093 Users (20%)</strong>
+                    <div className="text-muted">Nuevos Trabajadores</div>
+                    <strong>24.093 (20%)</strong>
                     <Progress className="progress-xs mt-2" color="info" value="20" />
                   </li>
                   <li>
-                    <div className="text-muted">Pageviews</div>
-                    <strong>78.706 Views (60%)</strong>
+                    <div className="text-muted">Ofertas</div>
+                    <strong>78.706 (60%)</strong>
                     <Progress className="progress-xs mt-2" color="warning" value="60" />
                   </li>
                   <li className="d-none d-md-table-cell">
-                    <div className="text-muted">New Users</div>
-                    <strong>22.123 Users (80%)</strong>
+                    <div className="text-muted">Trabajos Realizados</div>
+                    <strong>22.123 (80%)</strong>
                     <Progress className="progress-xs mt-2" color="danger" value="80" />
                   </li>
                   <li className="d-none d-md-table-cell">
-                    <div className="text-muted">Bounce Rate</div>
-                    <strong>Average 40.15%</strong>
+                    <div className="text-muted">Tasa de Aceptación</div>
+                    <strong>Postiva 90.15%</strong>
                     <Progress className="progress-xs mt-2" color="primary" value="40" />
                   </li>
                 </ul>
@@ -599,7 +600,7 @@ class Dashboard extends Component {
           </Col>
         </Row>
 
-        <Row>
+{/*         <Row>
           <Col xs="6" sm="6" lg="3">
             <div className="social-box facebook">
               <i className="fa fa-facebook"></i>
@@ -1221,7 +1222,8 @@ class Dashboard extends Component {
               </CardBody>
             </Card>
           </Col>
-        </Row>
+        </Row> */}
+
       </div>
     )
   }
