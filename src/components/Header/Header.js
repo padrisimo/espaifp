@@ -53,7 +53,7 @@ class Header extends Component {
             <NavLink href="#">Clientes</NavLink>
           </NavItem>
           <NavItem className="px-3">
-            <NavLink href="#">Trabajadores</NavLink>
+            <NavLink href="#/tables/trabajadores">Trabajadores</NavLink>
           </NavItem>
         </Nav>
         <Nav className="ml-auto" navbar>

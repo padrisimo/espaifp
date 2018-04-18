@@ -67,6 +67,7 @@ import Spinners from '../../views/Plugins/Spinners/';
 // Tables
 import DataTable from '../../views/Tables/DataTable/';
 import Tables from '../../views/Tables/Tables/';
+import TrabTable from '../../views/Tables/DataTable/TrabTable';
 
 // UI Kits
 import Invoice from '../../views/UI-Kits/Invoicing/';
@@ -124,6 +125,7 @@ class Full extends Component {
                 <Route path="/plugins/calendar" name="Calendar" component={Calendar}/>
                 <Route path="/plugins/spinners" name="Loading Buttons" component={Spinners}/>
                 <Route path="/tables/datatable" name="Data Table" component={DataTable}/>
+                <Route path="/tables/trabajadores" name="Workers Table" component={TrabTable}/>
                 <Route path="/tables/tables" name="Tables" component={Tables}/>
                 <Route path="/widgets" name="Widgets" component={Widgets}/>
                 <Route path="/ui-kits/invoicing/invoice" name="Invoice" component={Invoice}/>
