@@ -50,7 +50,7 @@ class Header extends Component {
             <NavLink href="#">Ofertas</NavLink>
           </NavItem>
           <NavItem className="px-3">
-            <NavLink href="#">Clientes</NavLink>
+            <NavLink href="#/tables/clientes">Clientes</NavLink>
           </NavItem>
           <NavItem className="px-3">
             <NavLink href="#/tables/trabajadores">Trabajadores</NavLink>

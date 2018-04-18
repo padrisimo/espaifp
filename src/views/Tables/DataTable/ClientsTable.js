@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { Card, CardHeader, CardBody } from 'reactstrap';
 import { BootstrapTable, TableHeaderColumn, ClearSearchButton } from 'react-bootstrap-table';
 import 'react-bootstrap-table/dist/react-bootstrap-table-all.min.css';
-import data from './_trabajadores';
+import data from './_clientes';
 
 
 
-class TrabTable extends Component {
+class ClientsTable extends Component {
   constructor(props) {
     super(props);
 
@@ -41,17 +41,15 @@ class TrabTable extends Component {
       <div className="animated fadeIn">
         <Card>
           <CardHeader>
-            <i className="icon-menu"></i>Trabajadores
+            <i className="icon-menu"></i>Clientes
           </CardHeader>
           <CardBody>
             <BootstrapTable data={this.table} version="4" striped hover pagination search searchPlaceholder={"buscar"} options={this.options} containerStyle={{overflowX: 'scroll'}}>
-              <TableHeaderColumn width='7%' dataField="picture" dataFormat={this.imageFormatter}>Foto</TableHeaderColumn>
               <TableHeaderColumn dataField="name" dataSort>Nombre</TableHeaderColumn>
-              <TableHeaderColumn dataField="profesion" dataSort>Profesión</TableHeaderColumn>
+              <TableHeaderColumn dataField="barrio" dataSort>Barrio</TableHeaderColumn>
               <TableHeaderColumn isKey width='20%' dataField="email">Email</TableHeaderColumn>
               <TableHeaderColumn dataField="phone">Teléfono</TableHeaderColumn>
-              <TableHeaderColumn width='7%' dataField="age" dataSort>Edad</TableHeaderColumn>
-              <TableHeaderColumn dataField="escuela" dataSort>Escuela</TableHeaderColumn>
+              <TableHeaderColumn dataField="ofertas" dataSort>Nº de Ofertas</TableHeaderColumn>
             </BootstrapTable>
           </CardBody>
         </Card>
@@ -60,4 +58,4 @@ class TrabTable extends Component {
   }
 }
 
-export default TrabTable;
+export default ClientsTable;

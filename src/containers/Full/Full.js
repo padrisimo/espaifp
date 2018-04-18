@@ -68,6 +68,7 @@ import Spinners from '../../views/Plugins/Spinners/';
 import DataTable from '../../views/Tables/DataTable/';
 import Tables from '../../views/Tables/Tables/';
 import TrabTable from '../../views/Tables/DataTable/TrabTable';
+import ClientsTable from '../../views/Tables/DataTable/ClientsTable';
 
 // UI Kits
 import Invoice from '../../views/UI-Kits/Invoicing/';
@@ -126,6 +127,7 @@ class Full extends Component {
                 <Route path="/plugins/spinners" name="Loading Buttons" component={Spinners}/>
                 <Route path="/tables/datatable" name="Data Table" component={DataTable}/>
                 <Route path="/tables/trabajadores" name="Workers Table" component={TrabTable}/>
+                <Route path="/tables/clientes" name="Workers Table" component={ClientsTable}/>
                 <Route path="/tables/tables" name="Tables" component={Tables}/>
                 <Route path="/widgets" name="Widgets" component={Widgets}/>
                 <Route path="/ui-kits/invoicing/invoice" name="Invoice" component={Invoice}/>
