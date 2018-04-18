@@ -2,16 +2,15 @@ import React, {Component} from 'react';
 import {Card, CardHeader, CardBody, NavLink} from 'reactstrap';
 import {withScriptjs, withGoogleMap, GoogleMap, Marker, InfoWindow } from 'react-google-maps';
 
-const defaultZoom = 11;
-const defaultCenter = {lat: 37.431489, lng: -122.163719};
+const defaultZoom = 17;
+const defaultCenter = {lat: 41.389286, lng: 2.178764};
 const locations = [
   {
-    lat: 37.431489,
-    lng: -122.163719,
-    label: 'S',
+    lat: 41.389286,
+    lng: 2.178764,
+    label: 'PA',
     draggable: false,
-    title: 'Stanford',
-    www: 'https://www.stanford.edu/'
+    title: 'Palau Alós',
   },
   {
     lat: 37.394694,
@@ -105,7 +104,7 @@ class ReactGoogleMaps extends Component {
     <div className="animated fadeIn">
       <Card>
         <CardHeader>
-          <i className="icon-map"></i> React Google Maps
+          <i className="icon-map"></i> Mapa de Ofertas Activas
           <div className="card-actions">
             <a href="https://github.com/tomchentw/react-google-maps" target="_blank">docs</a>
           </div>
