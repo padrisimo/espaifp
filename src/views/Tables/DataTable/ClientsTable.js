@@ -49,7 +49,8 @@ class ClientsTable extends Component {
               <TableHeaderColumn dataField="barrio" dataSort>Barrio</TableHeaderColumn>
               <TableHeaderColumn isKey width='20%' dataField="email">Email</TableHeaderColumn>
               <TableHeaderColumn dataField="phone">Teléfono</TableHeaderColumn>
-              <TableHeaderColumn dataField="ofertas" dataSort>Nº de Ofertas</TableHeaderColumn>
+              <TableHeaderColumn dataField="ofertas" width='12%' dataSort>Nº de Ofertas</TableHeaderColumn>
+              <TableHeaderColumn dataField="balance" dataSort>Gasto en €</TableHeaderColumn>
             </BootstrapTable>
           </CardBody>
         </Card>

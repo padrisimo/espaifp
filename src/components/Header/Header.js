@@ -47,7 +47,7 @@ class Header extends Component {
         </NavbarToggler>
         <Nav className="d-md-down-none" navbar>
           <NavItem className="px-3">
-            <NavLink href="#">Ofertas</NavLink>
+            <NavLink href="#/tables/ofertas">Ofertas</NavLink>
           </NavItem>
           <NavItem className="px-3">
             <NavLink href="#/tables/clientes">Clientes</NavLink>
